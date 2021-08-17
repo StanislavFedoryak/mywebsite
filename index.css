@@ -1,12 +1,220 @@
- .imgcarlogo {
-   width: 88px;
-   height: 67px;
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
+@media (min-width:340px) {
+  .container {
+      max-width: 1290px;
+  }
 }
-.imgtext {
-    min-width: 10%;
-    min-height: 10%;
+
+.container {
+  margin: auto;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
+.top .logo .imgcarlogo {
+  width: 90px;
+  height: 70px;
+}
+.top .numandcont img {
+  width: 54px;
+  height: 54px;
+  
+}
+.top .schedule img {
+  width: 54px;
+  height: 54px;
+}
+.main-menu .button-searce img {
+  width: 19px;
+  height: 19px;
+  
+}
+.button-searce svg {
+  fill:white;
+}
+.banner img {
+  width: 100%;
+  height: 600px;
+}
+.our-service .air-cond-and-electric-sys .air-condition  {
+  width: 50;
+  height: 50;
+}
+
+
+.top{
+  display: flex;
+  width: 100%;
+}
+
+.top .top-info {
+  width: 100%;
+  display:flex;
+ justify-content: flex-end;
+ margin-right: ;
+ font-family:'Atkinson Hyperlegible', sans-serif ;
+  
+}
+.top .top-info .numandcont {
+  display: flex;
+  margin-right:8%;
+}
+.top .top-info .numandcont img {
+  margin-top:9%;
+}
+.top .top-info .numandcont .numandcont-text {
+  margin-left: 7%;
+  font-size: 90%;
+}
+.top .top-info .numandcont .numandcont-text .email {
+  color: #7a7a7a;
+}
+
+
+.top .top-info .schedule {
+  width:12.2%;
+  display:flex;
+  margin-right: 3%;
+}
+.top .top-info .schedule img {
+  margin-top:9%;
+}
+.top .top-info .schedule .schedule-text {
+  margin-left: 7%;
+  font-size: 90%;
+}
+.top .top-info .schedule .schedule-text .pnpt {
+  color: #7a7a7a;
+}
+
 .main-menu .button-menu {
-   
+  width:97%;
+  font-family:'Atkinson Hyperlegible', sans-serif ;
+  font-size: 80%;
+  
+}
+.main-menu  a {
+  color:white;
+  text-decoration: none;
+  margin: 1.5%;
+ 
+}
+.main-menu {
+  display:flex;
+  width: 100%; height: 54px;
+  background-color: #075299;
+  align-items: center;
+  font-size: 1.2rem;
+  
+}
+.main-menu .button-searce {
+  
+  
+}
+
+.our-service .service-text h1 {
+  display: flex;
+  justify-content: center;
+  font-family:'Atkinson Hyperlegible', sans-serif ;
+  
+}
+.our-service .service-text div {
+  display: flex;
+  justify-content: center;
+  margin-top: -2%
+}
+.our-service .service-text div p {
+  color: #7a7a7a;
+}
+.our-service .air-cond-and-electric-sys {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.our-service .air-cond-and-electric-sys .air-condition h3 {
+  display: flex;
+  justify-content: center;
+}
+.our-service .air-cond-and-electric-sys .electrical-system h3 {
+  display: flex;
+  justify-content: center;
+}
+.our-service .brakerepair-and-filters {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.client-testimonials .textclients h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: -1px;
+}
+.client-testimonials .textclients div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.client-testimonials .man-square {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.client-testimonials .man-square .Jonathan-zub {
+  margin-right: 3%;
+  background-color: white;
+}
+.client-testimonials .man-square .Ilon-Max {
+  margin-left: 3%;
+  background-color: white;
+}
+.client-testimonials .man-square .Jonathan-zub img {
+  width: 80px;
+  margin-left: 30%;
+}
+.client-testimonials .man-square .Rex-Shpex img {
+  width: 80px;
+  margin-left: 30%;
+}
+.client-testimonials .man-square .Ilon-Max img {
+  width: 80px;
+  margin-left: 30%;
+}
+.client-testimonials .man-square .Rex-Shpex {
+  background-color: white;
+}
+.footer1 .socialpages a {
+  
+  margin-right: 6px;
+}
+
+.footer1 .socialpages .messenger svg {
+    fill: #ffffff;
+    
+}
+.footer1 .socialpages .youtube svg {
+  fill: #ffffff;
+  
+}
+.footer1 .socialpages .instagram svg{
+  fill: #ffffff;
+  
+}
+.footer1 .socialpages .facebook svg{
+  fill: #ffffff;
+  
+}
+.footer1 {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #075299;
+  
+}
+.client-testimonials {
+  
+  background-color: #f7f6f6;
 }
